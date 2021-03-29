@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="styles.css">
   
     <class="container">
-      <label for="uname"><b>Job no:</b></label>
+      <label for="uname">Job no:</label>
       <input type="text" placeholder="Job no" name="uname" required>
       <select name="cars" id="job">
         <option value="volvo">Location1</option>
@@ -13,7 +13,7 @@
         <option value="audi">Location4</option>
       </select>
   
-      <label for="psw"><b>Location:</b></label>
+      <label for="psw">Location:</label>
       <select name="cars"  id="location">
         <option value="volvo">Location1</option>
         <option value="saab">Location2</option>
@@ -23,7 +23,7 @@
 
     
 
-      <label for="psw"><b>Be Type:</b></label>
+      <label for="psw">Be Type:</label>
       <select name="cars"id="beno">
         <option value="volvo">Location1</option>
         <option value="saab">Location2</option>
@@ -31,7 +31,7 @@
         <option value="audi">Location4</option>
       </select>
 
-      <label for="psw"><b>W/H no:</b></label>
+      <label for="psw">W/H no:</label>
       <select name="cars"  id="whno">
         <option value="volvo">Location1</option>
         <option value="saab">Location2</option>
@@ -39,7 +39,7 @@
         <option value="audi">Location4</option>
       </select>
 
-       <label for="psw"><b>BE status:</b></label>
+       <label for="psw">BE status:</label>
     <select name="cars" id="cars">
         <option value="volvo">Location1</option>
         <option value="saab">Location2</option>
@@ -53,25 +53,27 @@
       <a href="#invoice_detail">Invoice Details</a>
     </div><br/>
 
+<!--Right Side Vertical Line Code -->
+
     <div class="vl">
-      <label for="psw" id="status"><b>Port of Loading:</b></label>
-      <select name="cars" id="ifsc">
+      <label for="psw" id="port">Port of Loading:</label>
+      <select name="cars" class="port" >
           <option value="volvo">Location1</option>
           <option value="saab">Location2</option>
           <option value="mercedes">Location3</option>
           <option value="audi">Location4</option>
       </select><br/><br/>
 
-      <label for="psw" id="status"><b>Country of Origin:</b></label>
-      <select name="cars" id="ifsc">
+      <label for="psw" id="origin">Country of Origin:</label>
+      <select name="cars"class="port" >
           <option value="volvo">Location1</option>
           <option value="saab">Location2</option>
           <option value="mercedes">Location3</option>
           <option value="audi">Location4</option>
       </select><br/><br/>
 
-      <label for="psw" id="status"><b>Port of Shipment:</b></label>
-      <select name="cars" id="ifsc">
+      <label for="psw" id="ship">Port of Shipment:</label>
+      <select name="cars" class="port">
           <option value="volvo">Location1</option>
           <option value="saab">Location2</option>
           <option value="mercedes">Location3</option>
@@ -79,8 +81,8 @@
       </select>
       <br/><br/>
 
-      <label for="psw" id="status"><b>Country of Consignment:</b></label>
-      <select name="cars" id="ifsc">
+      <label for="psw" id="cons">Country of Consignment:</label>
+      <select name="cars" class="port">
           <option value="volvo">Location1</option>
           <option value="saab">Location2</option>
           <option value="mercedes">Location3</option>
@@ -88,51 +90,55 @@
       </select>
       <br/><br/>
 
-      <label for="psw" id="status"><b>Payment Method Mode:</b></label>
+      <label for="psw" id="pay">Payment Method Mode:</label>
       <input type="text"  name="uname" required><br/></br>
    
-      <label for="psw" id="status"><b>URN no:</b></label>
+      <label for="psw" id="urn">URN no:</label>
       <input type="text"  name="uname" required><br/><br/>
 
-      <label for="psw" id="status"><b>Type:</b></label>
+      <label for="psw" id="type">Type:</label>
       <input type="text"  name="uname" required><br/><br/>
 
-      <input type="checkbox"  name="Bill" value="Bill Entry">
+      <input type="checkbox"  name="Bill" id="bill" value="Bill Entry">
       <label for="vehicle1">Kachcha Bill of Entry</label>
 
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <input type="checkbox" id="channel" name="vehicle1" value="Bike">
       <label for="vehicle1">Green Channel</label></br></br>
 
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <input type="checkbox" id="late" name="vehicle1" value="Bike">
       <label for="vehicle1">Section 48 Late Submission:</label>
       <input type="text" id="vehicle1" name="vehicle1"><br/></br>
 
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <input type="checkbox" id="import" name="vehicle1" value="Bike">
       <label for="vehicle1">Provisional Self Assesment by Importer:</label>
       <input type="text" id="vehicle1" name="vehicle1"></br><br/>
 
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <input type="checkbox" id="request" name="vehicle1" value="Bike">
       <label for="vehicle1">Self Assesment Not Requested:</label>
       <input type="text" id="vehicle1" name="vehicle1"></br><br/>
 
       
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <input type="checkbox" id="check" name="vehicle1" value="Bike">
       <label for="vehicle1">First Check:</label>
       <input type="text" id="vehicle1" name="vehicle1"></br><br/>
 
 
     <button id="discard" type="discard">Discard</button>
     </div>
+    <!--Till Here-->
 
-    <label for="psw" id="status"><b>IFSC Party:</b></label>
+    <label for="psw" id="status">IFSC Party:</label>
     <select name="cars" id="ifsc">
         <option value="volvo">Location1</option>
         <option value="saab">Location2</option>
         <option value="mercedes">Location3</option>
         <option value="audi">Location4</option>
-    </select>
+    </select><br/><br/>
 
-    <label for="psw"><b>A/D Code:</b></label>
+    <input type="checkbox" name="vehicle1" value="Bike">
+      <label for="vehicle1"  id="manu">Manufacturar</label>
+
+    <label for="psw">A/D Code:</label>
     <select name="cars" id="ad">
         <option value="volvo">Location1</option>
         <option value="saab">Location2</option>
@@ -140,34 +146,38 @@
         <option value="audi">Location4</option>
     </select><br/><br/>
    
-    <label for="psw"><b>IEC no:</b></label>
+    <label for="psw">IEC no:</label>
     <input type="text" placeholder="iec no" name="uname" required>
  
-    <label for="psw"><b>Branch:</b></label>
+    <label for="psw">Branch:</label>
     <input type="text" placeholder="Branch" name="uname" required>
 
-    <label for="psw"><b>PAN:</b></label>
+    <label for="psw">PAN:</label>
     <input type="text" placeholder="PAN no" name="uname" required><br/><br/>
 
-    <label for="psw"><b>ADDRESS:</b></label>
+    <label for="psw">ADDRESS:</label>
     <input type="text" id="add" placeholder="ADDRESS" name="uname" required><br/><br/>
 
-    <labe for="psw"><b>City:</b></labe>
+    <labe for="psw">City:</labe>
     <input type="text" placeholder="city" name="uname" required>
     
-    <label for="psw"><b>State:</b></label>
+    <label for="psw">State:</label>
     <input type="text" placeholder="state" name="uname" required>
 
-    <label for="psw"><b>Pin:</b></label>
+    <label for="psw">Pin:</label>
     <input type="text" placeholder="pin" name="uname" required><br/><br/>
 
-    <label for="psw"><b>CTX Type:</b></label>
+    <label for="psw">CTX Type:</label>
     <input type="text" id="ctx"  name="uname" required>
 
-    <label for="psw"><b>IEC Type:</b></label>
+    <label for="psw">IEC Type:</label>
     <input type="text"  name="uname" required><br/><br/>
+    
+    
+    <input type="checkbox" id="check" name="vehicle1" value="Bike">
+    <label for="vehicle1">High Seas Sales Applicable Click here</label><br/><br/>
 
-    <label for="psw"><b>HSS Party:</b></label>
+    <label for="psw">HSS Party:</label>
     <select name="cars" id="hss">
         <option value="volvo">Location1</option>
         <option value="saab">Location2</option>
@@ -175,32 +185,35 @@
         <option value="audi">Location4</option>
     </select><br/><br/>
 
-    <label for="psw"><b>IEC no:</b></label>
+    <label for="psw">IEC no:</label>
     <input type="text" placeholder="iec no" name="uname" required>
  
-    <label for="psw"><b>Branch:</b></label>
+    <label for="psw">Branch:</label>
     <input type="text" placeholder="Branch" name="uname" required>
 
-    <label for="psw"><b>PAN:</b></label>
+    <label for="psw">PAN:</label>
     <input type="text" placeholder="PAN no" name="uname" required><br/><br/>
 
-    <label for="psw"><b>ADDRESS:</b></label>
+    <label for="psw">ADDRESS:</label>
     <input type="text" id="add" placeholder="ADDRESS" name="uname" required><br/><br/>
 
-    <label for="psw"><b>City:</b></label>
+    <label for="psw">City:</label>
     <input type="text" id="city" placeholder="city" name="uname" required>
     
-    <label for="psw"><b>State:</b></label>
+    <label for="psw">State:</label>
     <input type="text" placeholder="state" name="uname" required>
 
-    <label for="psw"><b>Pin:</b></label>
+    <label for="psw">Pin:</label>
     <input type="text" placeholder="pin" name="uname" required><br/><br/>
 
-    <label for="psw"><b>CTX Type:</b></label>
+    <label for="psw">CTX Type:</label>
     <input type="text" id="ctx"  name="uname" required>
 
-    <label for="psw"><b>IEC Type:</b></label>
+    <label for="psw">IEC Type:</label>
     <input type="text"  name="uname" required><br/><br/>
+
+    <input type="checkbox" id="check" name="vehicle1" value="Bike">
+    <label for="vehicle1">Procceding level</label><br/><br/>
 
     <button type="submit" id="save">Save</button>
 
